@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.receipt {
+    background-color: white;
+    padding: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+    padding-right: 70px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.item, .quantity, .total {
+    width: 500px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price, .quantity span, .total span {
+    font-size: 1.1em;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
+
